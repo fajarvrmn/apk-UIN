@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragadab"
+    android:background="@drawable/backk"
+    tools:context="com.example.dedehikmat.uin.adab">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backk"
+
+        tools:context="com.example.dedehikmat.uin.PembuatActivity">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/uinlogo" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/imageView8"
+            android:layout_toRightOf="@+id/imageView8"
+            android:background="@color/hijau"
+            android:text="FAKULTAS"
+            android:textColor="#ffffff"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+
+
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginTop="65dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/adab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hijauu"
+                    android:fontFamily="monospace"
+                    android:text="ADAB DAN HUMANIORA"
+                    android:textColor="@color/putih"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/hijauu"
+                    android:id="@+id/sains1"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textSize="7pt"
+                    android:textColor="@color/putih"
+                    android:text="SAINS DAN TEKNOLOGI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/hijauu"
+                    android:id="@+id/politik1"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textSize="7pt"
+                    android:textColor="@color/putih"
+                    android:text="ILMU SOSIAL DAN ILMU POLITIK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/hijauu"
+                    android:id="@+id/psikolog1"
+                    android:text="PSIKOLOGI"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textSize="7pt"
+                    android:textColor="@color/putih"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/hijauu"
+                    android:id="@+id/syariah1"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textSize="7pt"
+                    android:textColor="@color/putih"
+                    android:text="SYARIAH DAN HUKUM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/hijauu"
+                    android:id="@+id/tar1"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textSize="7pt"
+                    android:textColor="@color/putih"
+                    android:text="TARBIYAH DAN KEGURUAN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/hijauu"
+                    android:id="@+id/ushuludin1"
+                    android:text="USHULUDDIN"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textSize="7pt"
+                    android:textColor="@color/putih"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/hijauu"
+                    android:id="@+id/dakwah1"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textSize="7pt"
+                    android:textColor="@color/putih"
+                    android:text="DAKWAH DAN KOMUNIKASI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/hijauu"
+                    android:id="@+id/pasca"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textSize="7pt"
+                    android:textColor="@color/putih"
+                    android:text="PASCA SARJANA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+</FrameLayout>

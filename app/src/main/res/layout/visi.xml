@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backk"
+    tools:context="com.example.dedehikmat.uin.VisiActivity">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/hijau"
+        android:textSize="10pt"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="VISI DAN MISI UIN"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button" />
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Visi"
+            android:fontFamily="serif"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:textSize="7pt"
+            android:text="  Menjadi Universitas Islam Negeri yang unggul dan\n  kompetitif berbasis wahyu memandu ilmu dalam\n  bingkai akhlak karimah di ASEAN tahun 2025.\n\n"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Misi"
+            android:textSize="8pt"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:fontFamily="serif"
+            android:textSize="7pt"
+            android:text="  1. Menyelenggarakan dan mengelola pendidikan\n       tinggi yang profesional, akuntabel, dan berdaya\n       saing di tingkat nasional dan ASEAN dalam\n       rangka memperkuat pembangunan Nasional.
+\n\n  2. Menyelenggarakan proses pembelajaran,\n       penelitian dan kajian ilmiah dengan bingkai\n       akhlak karimah berbasis wahyu memandu ilmu\n       untuk mengembangkan pengetahuan dan\n       teknologi.
+\n\n  3. Menyelenggarakan pengabdian untuk\n       mengembangkan dan memberdayakan\n       masyarakat menuju tatanan masyarakat\n       madani yang demokratis dan berkeadilan.
+\n\n  4. Menyelenggarakan tri darma perguruan tinggi\n       yang berorientasi pada pembentukan jiwa\n      entrepreneurship di kalangan civitas akademika.
+"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

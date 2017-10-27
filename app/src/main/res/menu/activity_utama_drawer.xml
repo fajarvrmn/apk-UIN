@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_sejarah"
+            android:icon="@drawable/mapp"
+            android:title="Sejarah singkat UIN" />
+
+
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/tujuan"
+            android:title="Tujuan dan Sasaran UIN" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/visi"
+            android:title="Visi dan Misi UIN" />
+
+
+
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/web"
+            android:title="Website UIN" />
+
+
+        <item
+            android:id="@+id/nav_fak"
+            android:icon="@drawable/fak"
+            android:title="Fakultas" />
+
+    </group>
+
+    <item android:title="Lainnya">
+        <menu>
+
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/abot"
+                android:title="Tentang aplikasi" />
+            <item
+                android:id="@+id/nav_dev"
+                android:icon="@drawable/dev"
+                android:title="Tentang pembuat " />
+        </menu>
+    </item>
+
+
+</menu>

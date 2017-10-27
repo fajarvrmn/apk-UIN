@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backk"
+
+    tools:context="com.example.dedehikmat.uin.TujuanActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/hijau"
+        android:textSize="10pt"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="TUJUAN DAN SASARAN UIN"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tujuan"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1.Terselenggaranya pendidikan tinggi yang profesional, akuntabel, dan berdaya saing di tingkat nasional dan internasional, yang dibutuhkan oleh masyarakat dan para pengguna jasa pendidikan tinggi.
+    \n\n2.Terwujudnya sivitas akademika yang berakhlak karimah dan menjunjung tinggi nilai-nilai keislaman dan keindonesiaan.
+    \n\n3.Terbentuknya manusia terdidik (alumni) yang berakhlak karimah dan profesional dalam bidang ilmu keislaman dan umum, sesuai dengan kebutuhan pasar; dan mampu memanfaatkan keilmuan dan profesionalismenya untuk pengembangan masyarakat madani, demokratis, dan berkeadilan.\n\n"
+                android:textColor="#000000" />
+
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sasaran"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+
+            android:text="
+Untuk mencapai tujuan yang dirumuskan di atas, ditetapkan sasaran pengembangan UIN SGD Bandung 4 (empat) tahun ke depan sebagai berikut:
+\n\n1.Tersedianya sistem dan piranti layanan akademik dan administrasi yang mendukung kegiatan akademik yang bermutu tinggi.
+\n\n2.Meningkatkan mutu layanan akademik, pembelajaran, dan pembimbingan yang bermuara pada peningkatan hasil pembelajaran dan karya tulis ilmiah hasil mahasiswa dan dosen.
+\n\n3.Tersedianya program pendidikan yang unggul, berkarakter, dan relevan dengan tuntutan dan perkembangan masyarakat, serta terjangkau oleh seluruh lapisan masyarakat.
+\n\n4.Tersedianya model-model pendidikan berbasis keunggulan dan kearifan lokal, namun berdaya saing global.
+\n\n5.Meningkatnya aktivitas dan mutu penelitian sesuai dengan arah kebijakan penelitian UIN SGD Bandung yang bermuara pada meningkatnya jumlah publikasi nasional dan internasional.
+\n\n6.Meningkatnya kuantitas dan mutu aktivitas pengabdian kepada masyarakat secara melembaga yang berbasis inovasi dan hasil-hasil penelitian.
+\n\n7.Terwujudnya sistem manajemen yang terintegrasi yang didukung oleh teknologi informasi, dan
+\n\n8.Terwujudnya perpustakaan sebagai pusat sumber belajar yang mendukung peningkatan mutu akademik dan penelitian.\n"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

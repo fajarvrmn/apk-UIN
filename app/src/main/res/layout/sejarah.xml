@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backk"
+    tools:context="com.example.dedehikmat.uin.SejarahActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/hijau"
+        android:textSize="10pt"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="SEJARAH SINGKAT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button" />
+
+
+    <ImageView
+        android:id="@+id/as"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/button"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/uin1"/>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/as"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="9dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/webvieww"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:text="          Sejarah berdirinya Universitas Islam Negeri (UIN) Sunan Gunung Djati Bandung tidak lepas dari IAIN Sunan Gunung Djati Bandung karena UIN merupakan kelanjutan dan pengembangan dari IAIN Sunan Gunung Djati Bandung.\n"
+                android:textColor="@color/hitam"
+                android:textSize="7pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          IAIN Sunan Gunung Djati Bandung didirikan pada tanggal 8 April 1968 M bertepatan dengan 10 Muharram 1388 H berdasarkan Keputusan Menteri Agama RI Nomor 56 Tahun 1968. Kehadiran IAIN Sunan Gunung Djati Bandung merupakan hasil perjuangan para tokoh umat Islam Jawa Barat. Dimulai pada tahun 1967, sejumlah tokoh masyarakat, alim ulama, dan cendekiawan muslim Jawa Barat yang diprakarsai oleh K. H. Anwar Musaddad, K.H. A. Muiz, K.H. R. Sudja'i, dan Arthata dengan persetujuan gubernur Jawa Barat, mereka membentuk Panitia Perizinan Pendirian IAIN di Jawa Barat. Panitia tersebut kemudian disahkan oleh Menteri Agama RI melalui SK-MA No. 128 Tahun 1967.\n"
+                android:textColor="@color/hitam"
+                android:textSize="7pt"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:layout_below="@+id/webvieww"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Selanjutnya, berdasarkan Surat Keputusan Menteri Agama RI Nomor 56 Tahun 1968, secara resmi berdiri IAIN Sunan Gunung Djati Bandung. Berbekal SK Menteri Agama tersebut, panitia membuka 4 Fakultas: Syari'ah, Tarbiyah, Ushuluddin di Bandung, dan Tarbiyah di Garut. IAIN Sunan Gunung Djati Bandung terdiri dari Fakultas Ushuluddin, Fakultas Syari'ah, Fakultas Tarbiyah di Bandung, sementara Fakultas Syari'ah dan fakultas lainnya yang ada di Bandung berlokasi di Jalan Lengkong Kecil No. 5.\n"
+                android:textColor="@color/hitam"
+                android:textSize="7pt"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:layout_below="@+id/webvieww"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Pada tahun 1973, IAIN Sunan Gunung Djati pindah ke Jalan Tangkuban Parahu No. 14. Pada tahun 1974 IAIN Sunan Gunung Djati pindah lagi ke Jalan Cipadung (sekarang Jalan A.H. Nasution No. 105). Pada tahun 1970, dalam rangka rayonisasi, Fakultas Tarbiyah di Bogor dan Fakultas Syari'ah di Sukabumi yang semula berinduk kepada IAIN Syarif Hidayatullah Jakarta digabungkan pada Fakultas Induk di Bandung. Sedangkan untuk Fakultas Tarbiyah Cirebon yang semula berafiliasi ke IAIN Syarif Hidayatullah, pada tanggal 5 Maret 1976 menginduk ke IAIN Sunan Gunung Djati.\n"
+                android:textColor="@color/hitam"
+                android:textSize="7pt"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:layout_below="@+id/webvieww"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Pada perkembangan berikutnya, tahun 1993, didirikanlah dua fakultas baru, yaitu Fakultas Dakwah dan Fakultas Adab. Pada tahun 1997, pengembangan diarahkan dalam bentuk penyelenggaraan Program Pascasarjana yang dimulai dengan membuka Program S2 (Pascasarjana).\n"
+                android:textColor="@color/hitam"
+                android:textSize="7pt"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:layout_below="@+id/webvieww"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Pada tahun 1997, terjadi perubahan kebijakan penataan sistem rayonisasi untuk IAIN. Berdasarkan Surat Keputusan Presiden Nomor 11 Tahun 1997 tanggal 21 Maret 1997, Fakultas Tarbiyah Cirebon yang semula menjadi cabang Fakultas Tarbiyah IAIN Sunan Gunung Djati Bandung meningkat statusnya menjadi Sekolah Tinggi Agama Islam (STAIN) Cirebon. Demikian juga dengan Fakultas Syari'ah Serang yang semula merupakan cabang Fakultas Syari'ah IAIN Sunan Gunung Djati Bandung statusnya menjadi STAIN Serang.\n"
+                android:textColor="@color/hitam"
+                android:textSize="7pt"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:layout_below="@+id/webvieww"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Berdasarkan Peraturan Presiden RI Nomor 57 Tahun 2005, tanggal 10 Oktober 2005, bertepatan dengan tanggal 6 Ramadhan 1426 H, IAIN berubah statusnya menjadi UIN Sunan Gunung Djati Bandung.\n"
+                android:textColor="@color/hitam"
+                android:textSize="7pt"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:layout_below="@+id/webvieww"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+
+
